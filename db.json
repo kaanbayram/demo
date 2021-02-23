@@ -1,14 +1,195 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+    "secretKey": "DIRECTORY_REPO_SECRETKEY",
+    "properties": {
+        "AccessLevel": {
+            "Inherit": false,
+            "Value": 1,
+            "Why": null
+        },
+        "AccessLevelPolicy": {
+            "Inherit": false,
+            "Value": null,
+            "Why": null
+        },
+        "AccessPassword": {
+            "Inherit": false,
+            "Value": "123456",
+            "Why": null
+        },
+        "KeepVersionCount": {
+            "Inherit": false,
+            "Value": 2,
+            "Why": null
+        },
+        "KeepMinorVersionCount": {
+            "Inherit": false,
+            "Value": 2,
+            "Why": null
+        },
+        "DefaultStorageId": {
+            "Inherit": false,
+            "Value": "DefaultStorageId",
+            "Why": null
+        },
+        "IndexSettings": {
+            "Inherit": false,
+            "Value": [
+                {
+                    "MimeTypes": [
+                        "image/jpeg",
+                        "image/png",
+                        "image/bmp",
+                        "image/tiff",
+                        "image/gif",
+                        "application/pdf"
+                    ],
+                    "ProcessorConfiguration": {
+                        "ProcessorType": 4,
+                        "Parameters": {
+                            "ServiceUrl": "http://localhost:9998/",
+                            "Ocr": false,
+                            "OcrLanguage": "eng+tur+deu"
+                        },
+                        "FallbackConfiguration": null
+                    }
+                },
+                {
+                    "MimeTypes": [
+                        "image/jpeg",
+                        "image/png",
+                        "image/bmp",
+                        "image/tiff",
+                        "image/gif",
+                        "application/pdf"
+                    ],
+                    "ProcessorConfiguration": {
+                        "ProcessorType": 2,
+                        "Parameters": "PARAMETER_TEST",
+                        "FallbackConfiguration": null
+                    }
+                },
+                {
+                    "MimeTypes": [
+                        "text/css",
+                        "text/csv",
+                        "text/html",
+                        "text/calendar",
+                        "text/javascript",
+                        "text/plain",
+                        "text/xml",
+                        "application/xml",
+                        "application/json",
+                        "application/xhtml+xml"
+                    ],
+                    "ProcessorConfiguration": {
+                        "ProcessorType": 1,
+                        "Parameters": "PARAMETER_TEST2",
+                        "FallbackConfiguration": null
+                    }
+                }
+            ],
+            "Why": null
+        },
+        "ClosingDate": {
+            "Inherit": false,
+            "Value": "2020-01-01 00:00:00.000",
+            "Why": null
+        },
+        "RetentionPolicy": {
+            "Inherit": false,
+            "Value": "RetentionPolicy",
+            "Why": null
+        },
+        "ControlledTerminology": {
+            "Inherit": false,
+            "Value": "ControlledTerminology",
+            "Why": null
+        },
+        "VolumeEnable": {
+            "Inherit": false,
+            "Value": true,
+            "Why": null
+        },
+        "VersioningType": {
+            "Inherit": false,
+            "Value": "VersioningType",
+            "Why": null
+        },
+        "AllowedExt": {
+            "Inherit": false,
+            "Value": "AllowedExt2",
+            "Why": null
+        },
+        "MaxAllowedFileSize": {
+            "Inherit": false,
+            "Value": 0,
+            "Why": null
+        },
+        "EncryptionEnable": {
+            "Inherit": false,
+            "Value": true,
+            "Why": null
+        },
+        "CompressionEnable": {
+            "Inherit": false,
+            "Value": true,
+            "Why": null
+        },
+        "MetaData": {
+            "Inherit": false,
+            "Profiles": [
+                {
+                    "ProjectId": "02736257-a952-4d30-82ca-018a58f83b8f",
+                    "FormId": "2d619b47-7906-47c4-a40c-63d3687d956b",
+                    "ProjectName": "Test_2_3068",
+                    "FormName": "Form1",
+                    "IsRequired": true,
+                    "Type": 0
+                }
+            ],
+            "Fields": [
+                {
+                    "ProjectId": "02736257-a952-4d30-82ca-018a58f83b8f",
+                    "FormId": "2d619b47-7906-47c4-a40c-63d3687d956b",
+                    "FieldName": "Dropdown1"
+                },
+                {
+                    "ProjectId": "02736257-a952-4d30-82ca-018a58f83b8f",
+                    "FormId": "2d619b47-7906-47c4-a40c-63d3687d956b",
+                    "FieldName": "TagBox1"
+                },
+                {
+                    "ProjectId": "02736257-a952-4d30-82ca-018a58f83b8f",
+                    "FormId": "2d619b47-7906-47c4-a40c-63d3687d956b",
+                    "FieldName": "ListBox1"
+                },
+                {
+                    "ProjectId": "02736257-a952-4d30-82ca-018a58f83b8f",
+                    "FormId": "2d619b47-7906-47c4-a40c-63d3687d956b",
+                    "FieldName": "RelatedDocuments1"
+                },
+                {
+                    "ProjectId": "02736257-a952-4d30-82ca-018a58f83b8f",
+                    "FormId": "2d619b47-7906-47c4-a40c-63d3687d956b",
+                    "FieldName": "Transfer1"
+                },
+                {
+                    "ProjectId": "02736257-a952-4d30-82ca-018a58f83b8f",
+                    "FormId": "2d619b47-7906-47c4-a40c-63d3687d956b",
+                    "FieldName": "DocumentMetadata1"
+                },
+                {
+                    "ProjectId": "02736257-a952-4d30-82ca-018a58f83b8f",
+                    "FormId": "2d619b47-7906-47c4-a40c-63d3687d956b",
+                    "FieldName": "DateTimePicker1"
+                },
+                {
+                    "ProjectId": "02736257-a952-4d30-82ca-018a58f83b8f",
+                    "FormId": "2d619b47-7906-47c4-a40c-63d3687d956b",
+                    "FieldName": "AutoComplete1"
+                }
+            ],
+            "Why": null
+        }
+    }
 }
