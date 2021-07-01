@@ -5,7 +5,11 @@
                 "name": "node1",
                 "id": 1,
                 "parentId": null,
-                "childId": [2,3,4]
+                "childId": [
+                    2,
+                    3,
+                    4
+                ]
             },
             {
                 "name": "node2",
