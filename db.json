@@ -5,7 +5,7 @@
                 "name": "node1",
                 "id": 1,
                 "parentId": null,
-                "childId": 16
+                "childId": null
             },
             {
                 "name": "node2",
